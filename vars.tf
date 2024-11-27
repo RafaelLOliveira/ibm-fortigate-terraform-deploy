@@ -86,3 +86,8 @@ variable "user_data" {
   default     = "user_data.conf"
   description = "The Custom Bootstrap Data file name."
 }
+
+variable "rg" {
+  description = "Resource Group ID"
+  default = ""
+}
